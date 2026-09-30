@@ -6,6 +6,7 @@
 #define CHAR_WHITE '.'
 #define CHAR_BLACK 'X'
 
+
 typedef struct {
   uint8_t pixel[VIDEO_ROW * VIDEO_COL / 8];
 } frame_t;
